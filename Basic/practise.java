@@ -1,19 +1,16 @@
 import java.util.Scanner;
 public class practise {
-    public static void main(String arg[]){
-        
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
-        System.out.println("enter a:");
         int a = sc.nextInt();
+        int b = sc.nextInt();       // both data type will be same otherwise lossy
+        int sum = a + b ;
+        System.out.println("Output is :" + sum);
 
-        System.out.println("enter a:");
-        int b = sc.nextInt();
+        char ch = 'B';
+        int value = ch;
+        System.out.println("output is :" + value);
 
-        if(a%5==0){
-            System.out.println( a + " is divisible by" + 5 );
-        } else {
-            System.out.println("nahi hai");
-        }
+
     }
 }
