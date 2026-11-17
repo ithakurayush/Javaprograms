@@ -10,6 +10,7 @@ public class practise {
         char ch = 'B';
         int value = ch;
         System.out.println("output is :" + value);
+        System.out.println("Ayush");
 
 
     }
